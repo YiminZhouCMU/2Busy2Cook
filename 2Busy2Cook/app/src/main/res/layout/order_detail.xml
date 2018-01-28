@@ -15,19 +15,54 @@
         android:layout_width="315dp"
         android:layout_height="40dp"
         android:textSize="20sp"
+        android:textStyle="bold"
         android:gravity="left"
         android:background="@drawable/txt_rectborder"
         android:backgroundTint="@color/colorTitle"
         android:text="百家香" />
 
-    <TextView
-        android:id="@+id/menuInfo"
+    <LinearLayout
         android:layout_width="315dp"
-        android:layout_height="195dp"
-        android:textSize="18sp"
-        android:gravity="left"
+        android:layout_height="200dp"
         android:background="@drawable/txt_rectborder"
-        android:text="@string/menu_info" />
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="28dp"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:text="@string/menu_intro_info" />
+            <TextView
+                android:id="@+id/menuInfo"
+                android:layout_width="90dp"
+                android:layout_height="28dp"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:text="葱爆肥牛" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="28dp"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:text="@string/menu_intro_price" />
+            <TextView
+                android:id="@+id/menuPrice"
+                android:layout_width="90dp"
+                android:layout_height="28dp"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:text="8刀" />
+        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -40,6 +75,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="特殊要求" />
 
         <EditText
@@ -53,7 +89,8 @@
             android:layout_width="196dp"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="取餐地点" />
+            android:text="取餐地点"
+            android:textStyle="bold"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -75,6 +112,7 @@
             android:layout_width="196dp"
             android:layout_height="wrap_content"
             android:paddingTop="4dp"
+            android:textStyle="bold"
             android:text="请选择份数" />
 
         <Spinner
@@ -88,9 +126,9 @@
         android:id="@+id/order_confirm_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="10dp"
         android:layout_centerHorizontal="true"
         android:backgroundTint="@color/confirmButton"
+        android:textStyle="bold"
         android:text="@string/order_confirm_button" />
 
 </LinearLayout>
