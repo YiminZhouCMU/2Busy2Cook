@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/resName"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:background="@drawable/txt_rectborder"
+        android:backgroundTint="@color/colorTitle"
+        android:text="百家香" />
+
+    <TextView
+        android:id="@+id/menuInfo"
+        android:layout_width="315dp"
+        android:layout_height="195dp"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:background="@drawable/txt_rectborder"
+        android:text="@string/menu_info" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingLeft="35dp"
+        android:paddingTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="特殊要求" />
+
+        <EditText
+            android:layout_width="315dp"
+            android:layout_height="35dp"
+            android:paddingTop="15dp"
+            android:background="@drawable/txt_rectborder"
+            android:inputType="phone" />
+
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="取餐地点" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hunt_button"
+                android:id="@+id/hunt_button"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gates_button"
+                android:id="@+id/gates_button"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="请选择份数" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="315dp"
+            android:layout_height="35dp"
+            android:background="@drawable/txt_rectborder" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/order_confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/confirmButton"
+        android:text="@string/order_confirm_button" />
+
+</LinearLayout>
+
