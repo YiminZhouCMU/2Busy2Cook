@@ -6,4 +6,11 @@
     <color name="colorTitle">#F4D35E</color>
     <color name="confirmButton">#6DB552</color>
     <color name="colorBackground">#F0F0F0</color>
+    <color name="colorStartOrder">#201301</color>
+    <color name="colorTextViewCornerRound">#fcfcfc</color>
+    <color name="colorSearchViewBackgroung">#f5f5f5</color>
+    <color name="colorMenuBg">#faa54b</color>
+    <color name="colorFont">#0b0b0b</color>
+    <color name="colorMenuDetail">#ffffff</color>
+    <color name="colorMenuBtn">#faa54b</color>
 </resources>

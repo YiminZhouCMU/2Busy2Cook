@@ -12,4 +12,17 @@
         <item>5</item>
     </string-array>
     <string name="order_confirm_button">确认订餐</string>
+    <string name="start_order">"Hungry? Getting start here!"</string>
+    <string name="search_main_page">"Search"</string>
+    <string name="menu_1">"百家香</string>
+    <string name="orderNum_1">"剩余份数：999"</string>
+    <string name="menu_detail_line_1">"午餐简介："</string>
+    <string name="menu_detail_line_2">"小椒肥牛配高丽菜，送可乐或者果汁"</string>
+    <string name="menu_detail_line_3">"送餐时间："</string>
+    <string name="menu_detail_line_4">"11：30-12：30 Gates"</string>
+    <string name="menu_button">"Order！"</string>
+    <string name="menu_order_1">"已有订单：福村"</string>
+    <string name="menu_delivery_info">"正在送餐"</string>
+    <string name="order_get">"我已取餐"</string>
+    <string name="order_cancel">"取消订单"</string>
 </resources>
